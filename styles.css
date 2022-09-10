@@ -1,0 +1,40 @@
+html {
+    font-family: Outfit;
+}
+
+body {
+    background-color: hsl(212, 45%, 89%);
+    display: flex;
+    justify-content: center;
+    height: calc(100vh - 1rem);
+}
+
+.qr {
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 1rem;
+    padding: 1rem 1rem 3rem 1rem;
+    max-width: 19rem;
+    margin: auto;
+    gap: 1.2rem;
+}
+
+.qr__image {
+    border-radius: 1rem;
+}
+
+.qr__header {
+    color: hsl(218, 44%, 22%);
+    padding-inline: 1rem;
+    text-align: center;
+    margin: 0;
+}
+
+.qr__text {
+    color: hsl(220, 15%, 55%);
+    padding-inline: 1rem;
+    text-align: center;
+    margin: 0;
+    font-size: 1rem;
+}
